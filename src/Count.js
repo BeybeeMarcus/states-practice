@@ -19,15 +19,12 @@ function Count() {
 
     return (
 
-        <>
-            
+        <>  
                 <span className="h1" style={{ marginLeft: '0px' }} id="result">{count}</span>
                 <br />
                 <button className="btn btn-primary" onClick={incrementValue}> + Increment </button>
                 <br />
                 <button className="btn btn-success" onClick={decrementValue}> - Decrement </button>
-            
-        
         </>
         
     );
