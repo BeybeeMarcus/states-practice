@@ -5,7 +5,7 @@ import './css/Count.css'
 function App() {
   return (
     
-    <Count></Count>
+      <Count></Count>
    
   )
 }
