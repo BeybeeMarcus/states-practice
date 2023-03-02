@@ -1,0 +1,72 @@
+{
+    "Angular models":{
+        "prefix": "angular-models",
+        "body": ["export interface Login {\n  name: string,\n  password: string\n}\n\nexport interface Meal{\n  dessert: string,\n  mainCourse: string,\n  mealId: number,\n  price: number,\n  starter: string,\n  weekday: number,\n}\n\nexport interface MealOrder{\n  starter: string,\n  mainCourse: string,\n  dessert: string,\n  price: number,\n  notes: string,\n  time: string,\n  orderMade: boolean,\n  weekday: number,\n  mealId: number,\n  orderId: number,\n}\n\nexport interface Order{\n  userId: number,\n  weekdayNumber: number,\n  time: string,\n  notes: string\n}\n\nexport interface User{\n  userId: number,\n  isAdmin: boolean,\n  password: string,\n  salt: string,\n  name: string\n}\n\n\n"],
+        "description": "C# Dtos"
+    },
+    "Angular core":{
+        "prefix": "angular-api",
+        "body": ["export class ApiService {\n  url: string = \"https://localhost:5001/foodorder\"\n  constructor(private http: HttpClient) { }\n\n  login(login: Login): Observable<any>{\n    return this.http.post<any>(`${(this.url)}/authenticate/user`, login)\n  }\n\n  getMeals(): Observable<Meal[]>{\n    return this.http.get<Meal[]>(`${this.url}/get-meals`)\n  }\n\n  getMealOrders(userId: number): Observable<MealOrder[]>{\n    return this.http.get<MealOrder[]>(`${this.url}/meals-orders?userId=${userId}`)\n  }\n\n  addOrder(order: Order){\n    return this.http.post<Order>(`${this.url}/post-order`, order)\n  }\n\n  resetOrders(){\n    return this.http.get(`${this.url}/reset-orders`)\n  }\n}\n"],
+        "description": "C# Dtos"
+    },
+    "Angular guard":{
+        "prefix": "angular-guard",
+        "body": ["\n@Injectable({\n  providedIn: 'root'\n})\nexport class AuthGuard implements CanActivate {\n  constructor(private router: Router) {}\n  canActivate(\n    route: ActivatedRouteSnapshot,\n    state: RouterStateSnapshot): boolean {\n    const isOk = !!sessionStorage.getItem('token')\n    console.log(`AuthGuard::canActivate ${isOk}`)\n    if (!isOk) this.router.navigate(['/login'])\n    return isOk\n  }\n}"],
+        "description": "C# Dtos"
+    },
+    "Angular - login - html":{
+        "prefix": "angular-login-html",
+        "body": ["<div class=\"row\">\n  <label>Benutzername</label>\n  <input type=\"text\" [(ngModel)]=\"login.name\" class=\"input-group form-control\"/>\n</div>\n<div class=\"row\">\n  <label>Passwort</label>\n  <input type=\"text\" [(ngModel)]=\"login.password\" class=\"input-group form-control\"/>\n</div>\n<div class=\"row\">\n  <button class=\"btn btn-primary\" [disabled]=\"!login.name.match(nameValidation)\" (click)=\"onLogin()\">Anmelden</button>\n</div>\n<p>{{msg}}</p>\n"],
+        "description": "C# Dtos"
+    },
+    "Angular - login - ts":{
+        "prefix": "angular-login-ts",
+        "body": ["export class LoginComponent implements OnInit {\n\n  login: Login = {name: '', password: ''}\n  msg: string = \"\"\n  nameValidation: RegExp = /^[a-zA-ZÖÄÜöäüß]{3,}.[a-zA-ZöäüÖÄÜß]{3,}$/\n  constructor(private activatedRoute: ActivatedRoute, private apiService: ApiService, private router: Router) { }\n\n  ngOnInit(): void {\n  }\n\n  onLogin(){\n    //REGEX\n    console.log(`LoginComponent::onLogin ${this.login.name} ${this.login.password}`)\n    this.apiService.login(this.login).subscribe(\n      data => {\n        sessionStorage.setItem('token', JSON.stringify(data))\n        this.router.navigate(['/'])\n      },\n      error => {this.msg = error.message}\n    )\n  }\n}"],
+        "description": "C# Dtos"
+    },
+    "Angular - meal - ts":{
+        "prefix": "angular-meal-ts",
+        "body": ["export class MealsComponent implements OnInit {\n\n  weeklyList = [\n    {\n      day: \"Montag\",\n      val: 1\n    },\n    {\n      day: \"Dienstag\",\n      val: 2\n    },\n    {\n      day: \"Mittag\",\n      val: 3\n    },\n    {\n      day: \"Donnerstag\",\n      val: 4\n    },\n    {\n      day: \"Freitag\",\n      val: 5\n    }\n  ]\n  paramsList = [\n    \"Starter\",\"MainCourse\",\"Dessert\",\"Price\",\"Note\",\"Time\",\"Order\"\n  ]\n\n  meals: MealOrder[] = []\n  // @ts-ignore\n  user: User\n  timeValidator: RegExp = /^1[1-4]:[0-5][0-9]$/\n\n  constructor(private apiService: ApiService, private router: Router) { }\n\n  ngOnInit(): void {\n    var user = JSON.parse(sessionStorage.getItem('token') as string)\n    this.apiService.getMealOrders(user.userId).subscribe(x => {\n      this.meals = x\n    })\n    this.user = user\n  }\n\n  logout(){\n    sessionStorage.removeItem('token')\n    this.router.navigate(['/login'])\n  }\n\n  order(meal: MealOrder){\n    var user = JSON.parse(sessionStorage.getItem('token') as string)\n    var order: Order = {\n      userId: user.userId,\n      notes: meal.notes,\n      time: meal.time,\n      weekdayNumber: meal.weekday\n    }\n    console.log(user)\n    this.apiService.addOrder(order).subscribe(x => {\n      console.log(x)\n      this.apiService.getMealOrders(user.userId).subscribe(x => {\n        this.meals = x\n      })\n    })\n  }\n\n  storno(meal: MealOrder){\n\n  }\n\n  resetOrders(){\n    this.apiService.resetOrders().subscribe(x => {\n      this.apiService.getMealOrders(this.user.userId).subscribe(x => {\n        this.meals = x\n        this.logout()\n      })\n    })\n  }\n}"],
+        "description": "C# Dtos"
+    },
+    "Angular - meal - html":{
+        "prefix": "angular-meal-html",
+        "body": ["<div class=\"row\">\n  <button (click)=\"logout()\">Ausloggen</button>\n  <button [hidden]=\"!user.isAdmin\" (click)=\"resetOrders()\">Bestellungen zurücksetzen</button>\n</div>\n<div class=\"row\">\n  <table class=\"table\">\n    <thead>\n    <th></th>\n    <th *ngFor=\"let item of weeklyList\">{{item.day}}</th>\n    </thead>\n    <tbody>\n    <tr>\n      <td style=\"font-weight: bold\" *ngFor=\"let param of paramsList\">{{param}}</td>\n    </tr>\n    <tr *ngFor=\"let meal of meals | slice:0:5\">\n      <td>{{meal.starter}}</td>\n      <td>{{meal.mainCourse}}</td>\n      <td>{{meal.dessert}}</td>\n      <td>{{meal.price | currency: 'EUR'}}</td>\n      <td><input [(ngModel)]=\"meal.notes\" type=\"text\"/></td>\n      <td><input [(ngModel)]=\"meal.time\" type=\"text\"/></td>\n      <td>\n        <button [hidden]=\"meal.orderMade\" [disabled]=\"!meal.time.match(timeValidator)\" (click)=\"order(meal)\">Bestellen</button>\n        <button [hidden]=\"!meal.orderMade\" (click)=\"storno(meal)\">Stornieren</button>\n      </td>\n    </tr>\n    </tbody>\n  </table>\n</div>\n"],
+        "description": "C# Dtos"
+    },
+    "Angular - meal - css":{
+        "prefix": "angular-meal-css",
+        "body": ["table tr {\n  display: table-cell;\n}\ntable tr td {\n  display: block;\n}\n"],
+        "description": "C# Dtos"
+    },
+    "C# - Dtos - login":{
+        "prefix": "ccf-dtos-login",
+        "body": ["public class LoginDto\n{\n    public string Name { get; set; }\n\n   public string Password { get; set; }\n}"],
+        "description": "C# Dtos"
+    },
+    "C# - Dtos - order":{
+        "prefix": "ccf-dtos-order",
+        "body": ["    public class OrderDto\n    {\n        public int UserId { get; set; }\n        public int WeekdayNumber { get; set; }\n        [RegularExpression(\"[0-2][0-9]:[0-5][0-9]\")]\n        public string Time { get; set; }\n        public string Notes { get; set; }\n    }"],
+        "description": "C# Dtos"
+    },
+    "C# - Dtos - mealorder":{
+        "prefix": "ccf-dtos-mealorder",
+        "body": ["    public class MealOrderDto\n    {\n        public string Starter { get; set; }\n        public string MainCourse { get; set; }\n        public string Dessert { get; set; }\n        public float Price { get; set; }\n        public string Notes { get; set; }\n        public string Time { get; set; }\n        public bool OrderMade { get; set; }\n        public int Weekday { get; set; }\n        public int OrderId { get; set; }\n        public int MealId { get; set; }\n    }"],
+        "description": "C# Dtos"
+    },
+    "C# - Service":{
+        "prefix": "ccf-service-fill",
+        "body": ["public void fillData()\n        {\n           if(db.Meals.Count() == 0)\n            {\n                var meals = File.ReadAllLines(\"C:\\\\Users\\\\fabia\\\\Desktop\\\\Speiseplan\\\\Speiseplan\\\\Resources\\\\speiseplan.csv\").Skip(1);\n                foreach (var line in meals)\n                {\n                    var meal = line.Split(',');\n                    var starter = meal[0];\n                    var mainCourse = meal[1];\n                    if (mainCourse.Contains('\"'))\n                    {\n                        mainCourse += meal[2];\n                        var dessert = meal[3];\n                        var weekday = meal[4];\n                        var price = meal[5] +\".\"+ meal[6];\n                        price = price.Replace(\"€\", \"\");\n                        price = price.Replace('\"', ' ').Trim();\n                        db.Meals.Add(new SpeiseplanManagerDb.Meal { Starter = starter, MainCourse = mainCourse, Dessert = dessert, Weekday = Int32.Parse(weekday), Price = float.Parse(price, CultureInfo.InvariantCulture) });\n                    }\n                    else\n                    {\n                        var dessert = meal[2];\n                        var weekday = meal[3];\n                        var price = meal[4] + \".\" + meal[5];\n                        price = price.Replace(\"€\", \"\");\n                        price = price.Replace('\"', ' ').Trim();\n                        db.Meals.Add(new SpeiseplanManagerDb.Meal { Starter = starter, MainCourse = mainCourse, Dessert = dessert, Weekday = Int32.Parse(weekday), Price = float.Parse(price, CultureInfo.InvariantCulture) });\n                    }\n                }\n                db.SaveChanges();\n            }\n        }"],
+        "description": "C# Dtos"
+    },
+    "C# - Calls":{
+        "prefix": "ccf-calls",
+        "body": ["[HttpGet]\n        [Route(\"get-meals\")]\n        public IActionResult GetMeals()\n        {\n            return Ok(db.Meals);\n        }\n\n        [HttpGet]\n        [Route(\"reset-orders\")]\n        public IActionResult ResetOrders()\n        {\n            db.Meals.RemoveRange(db.Meals);\n            db.SaveChanges();\n            db.Orders.RemoveRange(db.Orders);\n            service.fillData();\n            db.SaveChanges();\n            return Ok();\n        }\n\n        [HttpGet]\n        [Route(\"list-orders\")]\n        public IActionResult GetOrders([FromQuery] int weekday)\n        {\n            var meal = db.Meals.Include(x => x.Orders).FirstOrDefault(x => x.Weekday == weekday);\n            if (meal == null) return BadRequest();\n            return Ok(meal.Orders.ToList());\n        }\n\n        [HttpGet]\n        [Route(\"get-orders\")]\n        public IActionResult GetOrdersByUserId([FromQuery] int userId)\n        {\n            return Ok(db.Orders.Where(x => x.UserId == userId).ToList());\n        }\n\n        [HttpPost]\n        [Route(\"post-order\")]\n        public IActionResult AddOrder([FromBody] OrderDto order)\n        {\n            var newOrder = new SpeiseplanManagerDb.Order\n            {\n                Notes = order.Notes,\n                Time = DateTime.ParseExact(order.Time, \"HH:mm\", CultureInfo.InvariantCulture),\n                UserId = order.UserId,\n                MealId = db.Meals.First(x => x.Weekday == order.WeekdayNumber).MealId\n            };\n            var output = db.Orders.Add(newOrder);\n            db.SaveChanges();\n            return Ok(output.Entity);\n        }\n\n        [HttpGet]\n        [Route(\"meals-orders\")]\n        public IActionResult GetMealsAndOrders([FromQuery] int userId)\n        {\n            return Ok(db.Meals.Select(x => new MealOrderDto { \n                Starter=x.Starter, \n                MainCourse=x.MainCourse,\n                Dessert=x.Dessert,\n                Price=x.Price, \n                Notes= db.Orders.First(y => y.UserId == userId && y.MealId == x.MealId).Notes,\n                Time = db.Orders.First(y => y.UserId == userId && y.MealId == x.MealId).Time.ToString(\"HH:mm\") == null ? \"\" : db.Orders.First(y => y.UserId == userId && y.MealId == x.MealId).Time.ToString(\"HH:mm\"),\n                OrderMade= db.Orders.First(y => y.UserId == userId && y.MealId == x.MealId) != null,\n                Weekday = x.Weekday,\n                MealId=x.MealId,\n                OrderId = db.Orders.First(y => y.UserId == userId && y.MealId == x.MealId).OrderId == null ? -1 : db.Orders.First(y => y.UserId == userId && y.MealId == x.MealId).OrderId\n            }));\n        }\n\n\n        [HttpPost]\n        [Route(\"authenticate/user\")]\n        public IActionResult Login([FromBody] LoginDto login)\n        {\n            var user = db.Users.FirstOrDefault(x => x.Name == login.Name);\n            if (user == null)\n            {\n                var newOne = db.Users.Add(new SpeiseplanManagerDb.User { Name = login.Name, IsAdmin = false, Password = \"\", Salt=\"\" });\n                db.SaveChanges();\n                return Ok(newOne.Entity);\n            }\n            if (!user.IsAdmin)\n            {\n                return Ok(user);\n            }\n            if(user.Password == login.Password)\n            {\n                return Ok(user);\n            }\n            return BadRequest();\n        }"],
+        "description": "C# Dtos"
+    },
+    "Regex":{
+        "prefix": "regexe",
+        "body": ["1. /\\(.+\\)/g\n2. /(0x)?[0-9a-f]+/gi\n3. /(?<=<b>).*(?=</b>)/g\n4. /((11:[3-5][0-9])|(1[2-3]:[0-5][0-9])|14:00)/g"],
+        "description": "asdf"
+    }
+}

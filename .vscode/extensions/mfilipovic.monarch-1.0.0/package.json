@@ -1,0 +1,43 @@
+{
+	"name": "monarch",
+	"displayName": "Monarch Theme",
+	"description": "Monarch VS Code theme",
+	"icon": "logo.png",
+	"version": "1.0.0",
+	"publisher": "mfilipovic",
+	"author": {
+		"name": "Milorad Filipovic",
+		"email": "mrdosija@hotmail.com",
+		"url": "http://miloradfilipovic.github.io/"
+	},
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MiloradFilipovic/monarch-vs-code.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monarch",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monarch-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "d5039974-3765-4620-8d3c-d5e5ab3c4e30",
+		"publisherId": "7035cd12-67f0-4575-9b43-a6f453d55d2a",
+		"publisherDisplayName": "Milorad Filipovic",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1668346770013,
+		"preRelease": false
+	}
+}

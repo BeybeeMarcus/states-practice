@@ -1,0 +1,33 @@
+{
+	"name": "theme",
+	"displayName": "theme",
+	"description": "beautiful theme",
+	"version": "0.0.1",
+	"publisher": "hassanoof",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "beautiful",
+				"uiTheme": "vs-dark",
+				"path": "./themes/beautiful-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e9600c1a-a380-4a4b-b00a-5a444d51edd9",
+		"publisherId": "41b58520-1463-4b3c-aced-4e25d08aa229",
+		"publisherDisplayName": "hassanoof",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1673490578012,
+		"preRelease": false
+	}
+}

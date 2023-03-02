@@ -1,0 +1,49 @@
+{
+	"name": "theme-1",
+	"displayName": "Theme",
+	"description": "A Visual Studio Code theme  for those of us who like to code late into the night",
+	"version": "1.2.6",
+	"publisher": "MarcHolland",
+	"author": "Marc Holland",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tal7aouy/theme"
+	},
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "logo.png",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "go",
+				"path": "./snippets/angular.code-snippets"
+			},
+			{
+				"language": "go",
+				"path": "./snippets/csharp.code-snippets"
+			}
+		],
+		"themes": [
+			{
+				"label": "Theme",
+				"uiTheme": "vs-dark",
+				"path": "./snippets/Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a57c5615-421a-4e97-a545-201c1dfa0db7",
+		"publisherId": "f78f434a-05f4-48d0-bc53-7fc06cc6cf10",
+		"publisherDisplayName": "Marc Holland",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1673490584527,
+		"preRelease": false
+	}
+}

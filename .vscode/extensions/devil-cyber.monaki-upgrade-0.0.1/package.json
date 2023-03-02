@@ -1,0 +1,45 @@
+{
+	"name": "monaki-upgrade",
+	"displayName": "monaki-upgrade",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"url": "https://github.com/devil-cyber/VSCode-Theme-Extension"
+	},
+	"publisher": "devil-cyber",
+	"author": {
+		"name": "Manikant Kumar"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/devil-cyber/VSCode-Theme-Extension",
+	"keywords": [
+		"vs code monaki upgrade solari"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Monokai Dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1975d5ac-d929-46fe-8d7e-4c62845db146",
+		"publisherId": "8e745d88-e90e-4b80-9acf-546a3280f1cb",
+		"publisherDisplayName": "Manikant",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1668346771315,
+		"preRelease": false
+	}
+}

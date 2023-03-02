@@ -1,0 +1,873 @@
+12:23:15 INFO app: ------------------------------------------------
+12:23:15 INFO app:             Thu Sep 16 12:23:15 2021            
+12:23:15 INFO app:               Starting new session              
+12:23:15 INFO app: ------------------------------------------------
+12:23:15 INFO app:             OpenShot (version 2.6.1)            
+12:23:15 INFO app: ------------------------------------------------
+12:23:15 INFO app: openshot-qt version: 2.6.1
+12:23:15 INFO app: libopenshot version: 0.2.7
+12:23:15 INFO app: platform: Windows-10-10.0.19041
+12:23:15 INFO app: processor: Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+12:23:15 INFO app: machine: AMD64
+12:23:15 INFO app: python version: 3.8.9
+12:23:15 INFO app: qt5 version: 5.15.2
+12:23:15 INFO app: pyqt5 version: 5.15.4
+12:23:15 INFO app: Frozen version info from build server:
+{
+    "build_name": "OpenShot-v2.6.1-release-candidate-8238-59878784-d588dbd6",
+    "date": "2021-09-04 23:49",
+    "libopenshot": {
+        "CI_COMMIT_REF_NAME": "release-20210904",
+        "CI_COMMIT_SHA": "59878784732fa399c47ac5d282bfc9dfe470d0dc",
+        "CI_JOB_ID": "27419",
+        "CI_PIPELINE_ID": "8237",
+        "CI_PROJECT_NAME": "libopenshot",
+        "SO": "21",
+        "VERSION": "0.2.7"
+    },
+    "libopenshot-audio": {
+        "CI_COMMIT_REF_NAME": "release-20210904",
+        "CI_COMMIT_SHA": "d588dbd6057f71c987dc6d8448322aa6b6e86f1a",
+        "CI_JOB_ID": "27414",
+        "CI_PIPELINE_ID": "8236",
+        "CI_PROJECT_NAME": "libopenshot-audio",
+        "SO": "8",
+        "VERSION": "0.2.2"
+    },
+    "openshot-qt": {
+        "CI_COMMIT_REF_NAME": "release-20210904",
+        "CI_COMMIT_SHA": "11f8e5050bd95c7731beccda28a01fbb481fcf7d",
+        "CI_JOB_ID": "27424",
+        "CI_PIPELINE_ID": "8238",
+        "CI_PROJECT_NAME": "openshot-qt",
+        "SO": null,
+        "VERSION": "2.6.1"
+    }
+}
+12:23:15 INFO project_data: Setting default profile to HD 720p 30 fps
+12:23:16 INFO language: Qt Detected Languages: ['en-US']
+12:23:16 INFO language: LANG Environment Variable: 
+12:23:16 INFO language: LOCALE Environment Variable: 
+12:23:16 INFO language: OpenShot Preference Language: Default
+12:23:16 INFO app: Setting font to C:\Program Files\OpenShot Video Editor\images\fonts\Ubuntu-R.ttf
+12:23:16 INFO logger_libopenshot: Connecting to libopenshot with debug port: 5556
+12:23:16 INFO app: Setting custom dark theme
+12:23:17 INFO ui_util: Initializing UI for MainWindow
+12:23:18 INFO webkit: WebKit backend initializing
+12:23:18 INFO thumbnail: Starting thumbnail server listening on port 53275
+12:23:18 INFO transition_model: updating transitions model.
+12:23:19 INFO version: Found current version: {'error_rate_stable': 0.05, 'error_rate_unstable': 0.05, 'openshot_version': '2.6.1'}
+12:23:19 INFO effects_model: updating effects model.
+12:23:19 INFO emoji_model: updating emoji model.
+12:23:22 INFO webkit: Registering objects with WebKit
+12:23:22 INFO sentry: Sentry initialized with 0.05 error reporting rate (production)
+12:23:22 INFO main_window: InitCacheSettings
+12:23:22 INFO main_window: cache-mode: CacheMemory
+12:23:22 INFO main_window: cache-limit-mb: 250
+12:23:22 INFO main_window: Creating CacheMemory object with 262144000 byte limit
+12:23:22 INFO preview_thread: QThread Start Method Invoked
+12:23:22 INFO main_window: Clear all thumbnails: C:\Users\G A M I N G _ R I G\.openshot_qt\thumbnail
+12:23:22 INFO main_window: Clear all animations: C:\Users\G A M I N G _ R I G\.openshot_qt\blender
+12:23:22 INFO main_window: Clear all titles: C:\Users\G A M I N G _ R I G\.openshot_qt\title
+12:23:22 INFO main_window: updateStatusChanged
+12:23:22 INFO main_window: recover_backup
+12:23:22 INFO project_data: Setting default profile to HD 720p 30 fps
+12:23:22 INFO preview_thread: player Position(): 1
+12:23:22 INFO video_widget: Load: Set video widget display aspect ratio to: 1.7777777910232544
+12:23:22 INFO video_widget: Set video widget pixel aspect ratio to: 1.0
+12:23:22 INFO main_window: updateStatusChanged
+12:23:22 INFO preview_thread: player Position(): 1
+12:23:22 INFO timeline: Adjusting max size of preview image: PyQt5.QtCore.QSize(384, 216)
+12:23:22 INFO preview_thread: player Position(): 1
+12:23:22 INFO webview: Qt Ready
+12:23:22 INFO webview: Angular Ready
+12:23:24 INFO sentry: Sentry initialized with 0.05 error reporting rate (production)
+12:24:27 INFO files_listview: Processing drop event for 1 urls
+12:24:27 INFO files_model: Imported media file C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4
+12:24:27 INFO project_data: _set key: ['files'] values: {'acodec': 'aac', 'audio_bit_rate': 125588, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 9, 'num': 16}, 'duration': 200.0863494873047, 'file_size': '39900877', 'fps': {'den': 1, 'num': 30}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1080, 'interlaced_frame': False, 'metadata': {'compatible_brands': 'isomiso2avc1mp41', 'encoder': 'Lavf58.19.102', 'handler_name': 'SoundHandler', 'language': 'und', 'major_brand': 'isom', 'minor_version': '512'}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 199417, 'video_length': '6001', 'video_stream_index': 0, 'video_timebase': {'den': 90000, 'num': 1}, 'width': 1920, 'media_type': 'video', 'id': 'FL4QHJZY8H'} add: True partial: False remove: False
+12:24:27 INFO main_window: updateStatusChanged
+12:24:27 INFO project_data: _set key: ['import_path'] values: C:/Users/G A M I N G _ R I G/Desktop/Ziah add: False partial: False remove: False
+12:24:27 INFO main_window: updateStatusChanged
+12:24:47 INFO main_window: actionPreview_File_trigger
+12:24:47 INFO ui_util: Initializing UI for Dialog
+12:24:47 INFO cutting: C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4
+12:24:47 INFO preview_thread: QThread Start Method Invoked
+12:24:48 INFO timeline: Adjusting max size of preview image: PyQt5.QtCore.QSize(562, 316)
+12:24:48 INFO preview_thread: player Position(): 2
+12:24:48 INFO cutting: sliderVideo_valueChanged
+12:24:48 INFO cutting: btnPlay_clicked
+12:24:48 INFO cutting: pause (icon to play)
+12:24:48 INFO cutting: sliderVideo_valueChanged
+12:24:48 INFO cutting: btnPlay_clicked
+12:24:48 INFO cutting: pause (icon to play)
+12:24:50 INFO cutting: btnPlay_clicked
+12:24:50 INFO cutting: play (icon to pause)
+12:25:22 INFO app: ------------------------------------------------
+12:25:22 INFO app:             Thu Sep 16 12:25:22 2021            
+12:25:22 INFO app:               Starting new session              
+12:25:22 INFO app: ------------------------------------------------
+12:25:22 INFO app:             OpenShot (version 2.6.1)            
+12:25:22 INFO app: ------------------------------------------------
+12:25:22 INFO app: openshot-qt version: 2.6.1
+12:25:22 INFO app: libopenshot version: 0.2.7
+12:25:22 INFO app: platform: Windows-10-10.0.19041
+12:25:22 INFO app: processor: Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+12:25:22 INFO app: machine: AMD64
+12:25:22 INFO app: python version: 3.8.9
+12:25:22 INFO app: qt5 version: 5.15.2
+12:25:22 INFO app: pyqt5 version: 5.15.4
+12:25:22 INFO app: Frozen version info from build server:
+{
+    "build_name": "OpenShot-v2.6.1-release-candidate-8238-59878784-d588dbd6",
+    "date": "2021-09-04 23:49",
+    "libopenshot": {
+        "CI_COMMIT_REF_NAME": "release-20210904",
+        "CI_COMMIT_SHA": "59878784732fa399c47ac5d282bfc9dfe470d0dc",
+        "CI_JOB_ID": "27419",
+        "CI_PIPELINE_ID": "8237",
+        "CI_PROJECT_NAME": "libopenshot",
+        "SO": "21",
+        "VERSION": "0.2.7"
+    },
+    "libopenshot-audio": {
+        "CI_COMMIT_REF_NAME": "release-20210904",
+        "CI_COMMIT_SHA": "d588dbd6057f71c987dc6d8448322aa6b6e86f1a",
+        "CI_JOB_ID": "27414",
+        "CI_PIPELINE_ID": "8236",
+        "CI_PROJECT_NAME": "libopenshot-audio",
+        "SO": "8",
+        "VERSION": "0.2.2"
+    },
+    "openshot-qt": {
+        "CI_COMMIT_REF_NAME": "release-20210904",
+        "CI_COMMIT_SHA": "11f8e5050bd95c7731beccda28a01fbb481fcf7d",
+        "CI_JOB_ID": "27424",
+        "CI_PIPELINE_ID": "8238",
+        "CI_PROJECT_NAME": "openshot-qt",
+        "SO": null,
+        "VERSION": "2.6.1"
+    }
+}
+12:25:22 INFO project_data: Setting default profile to HD 720p 30 fps
+12:25:22 INFO language: Qt Detected Languages: ['en-US']
+12:25:22 INFO language: LANG Environment Variable: 
+12:25:22 INFO language: LOCALE Environment Variable: 
+12:25:22 INFO language: OpenShot Preference Language: Default
+12:25:22 INFO app: Setting font to C:\Program Files\OpenShot Video Editor\images\fonts\Ubuntu-R.ttf
+12:25:22 INFO logger_libopenshot: Connecting to libopenshot with debug port: 5556
+12:25:22 INFO app: Setting custom dark theme
+12:25:23 INFO ui_util: Initializing UI for MainWindow
+12:25:23 INFO webkit: WebKit backend initializing
+12:25:23 INFO thumbnail: Starting thumbnail server listening on port 59143
+12:25:23 INFO transition_model: updating transitions model.
+12:25:23 INFO effects_model: updating effects model.
+12:25:23 INFO emoji_model: updating emoji model.
+12:25:24 INFO webkit: Registering objects with WebKit
+12:25:24 INFO main_window: InitCacheSettings
+12:25:24 INFO main_window: cache-mode: CacheMemory
+12:25:24 INFO main_window: cache-limit-mb: 250
+12:25:24 INFO main_window: Creating CacheMemory object with 262144000 byte limit
+12:25:24 INFO preview_thread: QThread Start Method Invoked
+12:25:24 ERROR main_window: Unhandled crash detected: No Log Detected
+12:25:24 INFO main_window: updateStatusChanged
+12:25:24 INFO main_window: recover_backup
+12:25:24 INFO project_data: Setting default profile to HD 720p 30 fps
+12:25:24 INFO preview_thread: player Position(): 1
+12:25:24 INFO video_widget: Load: Set video widget display aspect ratio to: 1.7777777910232544
+12:25:24 INFO video_widget: Set video widget pixel aspect ratio to: 1.0
+12:25:24 INFO main_window: updateStatusChanged
+12:25:24 INFO preview_thread: player Position(): 1
+12:25:24 INFO version: Found current version: {'error_rate_stable': 0.05, 'error_rate_unstable': 0.05, 'openshot_version': '2.6.1'}
+12:25:24 INFO webview: Qt Ready
+12:25:24 INFO webview: Angular Ready
+12:25:24 INFO timeline: Adjusting max size of preview image: PyQt5.QtCore.QSize(384, 216)
+12:25:24 INFO preview_thread: player Position(): 1
+12:25:24 INFO sentry: Sentry initialized with 0.05 error reporting rate (production)
+12:25:31 INFO main_window: actionAddTrack_trigger
+12:25:31 INFO project_data: _set key: ['layers'] values: {'number': 6000000, 'y': 0, 'label': '', 'lock': False, 'id': 'F3KK94MXKO'} add: True partial: False remove: False
+12:25:31 INFO main_window: updateStatusChanged
+12:25:43 INFO main_window: Clear all thumbnails: C:\Users\G A M I N G _ R I G\.openshot_qt\thumbnail
+12:25:43 INFO main_window: Clear all animations: C:\Users\G A M I N G _ R I G\.openshot_qt\blender
+12:25:43 INFO main_window: Clear all titles: C:\Users\G A M I N G _ R I G\.openshot_qt\title
+12:25:43 INFO project_data: Setting default profile to HD 720p 30 fps
+12:25:43 INFO preview_thread: player Position(): 1
+12:25:43 INFO video_widget: Load: Set video widget display aspect ratio to: 1.7777777910232544
+12:25:43 INFO video_widget: Set video widget pixel aspect ratio to: 1.0
+12:25:43 INFO main_window: updateStatusChanged
+12:25:43 INFO main_window: updateStatusChanged
+12:25:43 INFO main_window: updateStatusChanged
+12:25:43 INFO main_window: New Project created.
+12:25:46 INFO ui_util: Initializing UI for Dialog
+12:25:50 INFO main_window: Clear all thumbnails: C:\Users\G A M I N G _ R I G\.openshot_qt\thumbnail
+12:25:50 INFO main_window: Clear all animations: C:\Users\G A M I N G _ R I G\.openshot_qt\blender
+12:25:50 INFO main_window: Clear all titles: C:\Users\G A M I N G _ R I G\.openshot_qt\title
+12:25:50 INFO project_data: Setting default profile to HD 720p 30 fps
+12:25:50 INFO preview_thread: player Position(): 1
+12:25:50 INFO video_widget: Load: Set video widget display aspect ratio to: 1.7777777910232544
+12:25:50 INFO video_widget: Set video widget pixel aspect ratio to: 1.0
+12:25:50 INFO main_window: updateStatusChanged
+12:25:50 INFO main_window: updateStatusChanged
+12:25:50 INFO main_window: updateStatusChanged
+12:25:50 INFO main_window: New Project created.
+12:25:59 INFO webview: Dropping item on timeline - item_id: None, item_type: os_drop
+12:25:59 INFO files_listview: Processing drop event for 1 urls
+12:25:59 INFO files_model: Imported media file C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4
+12:25:59 INFO project_data: _set key: ['files'] values: {'acodec': 'aac', 'audio_bit_rate': 125588, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 9, 'num': 16}, 'duration': 200.0863494873047, 'file_size': '39900877', 'fps': {'den': 1, 'num': 30}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1080, 'interlaced_frame': False, 'metadata': {'compatible_brands': 'isomiso2avc1mp41', 'encoder': 'Lavf58.19.102', 'handler_name': 'SoundHandler', 'language': 'und', 'major_brand': 'isom', 'minor_version': '512'}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 199417, 'video_length': '6001', 'video_stream_index': 0, 'video_timebase': {'den': 90000, 'num': 1}, 'width': 1920, 'media_type': 'video', 'id': 'LR9HZETVS8'} add: True partial: False remove: False
+12:25:59 INFO main_window: updateStatusChanged
+12:25:59 INFO project_data: _set key: ['import_path'] values: C:/Users/G A M I N G _ R I G/Desktop/Ziah add: False partial: False remove: False
+12:25:59 INFO main_window: updateStatusChanged
+12:25:59 INFO project_data: _set key: ['clips'] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 200.0863494873047, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000.0, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 58.65, 'reader': {'acodec': 'aac', 'audio_bit_rate': 125588, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 9, 'num': 16}, 'duration': 200.0863494873047, 'file_size': '39900877', 'fps': {'den': 1, 'num': 30}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1080, 'interlaced_frame': False, 'metadata': {'compatible_brands': 'isomiso2avc1mp41', 'encoder': 'Lavf58.19.102', 'handler_name': 'SoundHandler', 'language': 'und', 'major_brand': 'isom', 'minor_version': '512'}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 199417, 'video_length': '6001', 'video_stream_index': 0, 'video_timebase': {'den': 90000, 'num': 1}, 'width': 1920}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: True partial: False remove: False
+12:25:59 INFO main_window: updateStatusChanged
+12:25:59 INFO preview_thread: player Position(): 1
+12:25:59 INFO preview_thread: player Position(): 1
+12:26:03 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: False
+12:26:03 INFO preview_thread: player Position(): 1
+12:26:05 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: True
+12:26:05 INFO preview_thread: player Position(): 1
+12:26:05 INFO preview_thread: player Position(): 1
+12:26:07 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'id': '9QV2JIQ8SF', 'layer': 5000000, 'position': 0, 'start': 0, 'end': 200.0863494873047} add: False partial: False remove: False
+12:26:07 INFO main_window: updateStatusChanged
+12:26:07 INFO preview_thread: player Position(): 1
+12:26:36 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: False
+12:26:45 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 200.0863494873047, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 17.0, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 17.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: False partial: False remove: False
+12:26:45 INFO main_window: updateStatusChanged
+12:26:45 INFO preview_thread: player Position(): 510
+12:28:02 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: False
+12:28:07 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 200.0863494873047, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 53.36666666666667, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 53.36666666666667, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: False partial: False remove: False
+12:28:07 INFO main_window: updateStatusChanged
+12:28:07 INFO preview_thread: player Position(): 1601
+12:28:18 INFO main_window: actionUndo_trigger
+12:28:18 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 200.0863494873047, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 17.0, 'reader': {'acodec': 'aac', 'audio_bit_rate': 125588, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 9, 'num': 16}, 'duration': 200.0863494873047, 'file_size': '39900877', 'fps': {'den': 1, 'num': 30}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1080, 'interlaced_frame': False, 'metadata': {'compatible_brands': 'isomiso2avc1mp41', 'encoder': 'Lavf58.19.102', 'handler_name': 'SoundHandler', 'language': 'und', 'major_brand': 'isom', 'minor_version': '512'}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 199417, 'video_length': '6001', 'video_stream_index': 0, 'video_timebase': {'den': 90000, 'num': 1}, 'width': 1920}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 17.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: False partial: False remove: False
+12:28:18 INFO main_window: updateStatusChanged
+12:28:18 INFO preview_thread: player Position(): 1716
+12:28:21 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: False
+12:28:24 INFO main_window: auto_save_project
+12:28:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:28:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:28:35 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 200.0863494873047, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 57.2, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 57.2, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: False partial: False remove: False
+12:28:35 INFO main_window: updateStatusChanged
+12:28:35 INFO preview_thread: player Position(): 1716
+12:28:41 INFO main_window: actionUndo_trigger
+12:28:41 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 200.0863494873047, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 17.0, 'reader': {'acodec': 'aac', 'audio_bit_rate': 125588, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 9, 'num': 16}, 'duration': 200.0863494873047, 'file_size': '39900877', 'fps': {'den': 1, 'num': 30}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1080, 'interlaced_frame': False, 'metadata': {'compatible_brands': 'isomiso2avc1mp41', 'encoder': 'Lavf58.19.102', 'handler_name': 'SoundHandler', 'language': 'und', 'major_brand': 'isom', 'minor_version': '512'}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/Ziah/I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 199417, 'video_length': '6001', 'video_stream_index': 0, 'video_timebase': {'den': 90000, 'num': 1}, 'width': 1920}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 17.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: False partial: False remove: False
+12:28:41 INFO main_window: updateStatusChanged
+12:28:41 INFO preview_thread: player Position(): 1782
+12:28:44 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: True
+12:28:44 INFO preview_thread: player Position(): 1671
+12:28:44 INFO preview_thread: player Position(): 1671
+12:29:22 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: False
+12:29:32 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 200.0863494873047, 'effects': [], 'end': 53.36666666666667, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '9QV2JIQ8SF', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 17.0, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 17.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'LR9HZETVS8', 'title': 'I Like You So Much Youll Know It  Ysabelle  A Love So Beautiful OST Hanz Axl 1080p.mp4'} add: False partial: False remove: False
+12:29:32 INFO main_window: updateStatusChanged
+12:29:32 INFO preview_thread: player Position(): 1601
+12:30:23 INFO webview: Dropping item on timeline - item_id: None, item_type: os_drop
+12:30:23 INFO files_listview: Processing drop event for 1 urls
+12:30:23 INFO files_model: Imported media file C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg
+12:30:23 INFO project_data: _set key: ['files'] values: {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 1646, 'num': 1105}, 'duration': 3600.0, 'file_size': '7275320', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 1646, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 1105, 'media_type': 'image', 'id': 'IU6T21V6HH'} add: True partial: False remove: False
+12:30:23 INFO main_window: updateStatusChanged
+12:30:23 INFO project_data: _set key: ['import_path'] values: C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah add: False partial: False remove: False
+12:30:23 INFO main_window: updateStatusChanged
+12:30:23 INFO project_data: _set key: ['clips'] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 10.0, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000.0, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 21.599999999999998, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 1646, 'num': 1105}, 'duration': 3600.0, 'file_size': '7275320', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 1646, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 1105}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: True partial: False remove: False
+12:30:23 INFO main_window: updateStatusChanged
+12:30:23 INFO preview_thread: player Position(): 1598
+12:30:23 INFO preview_thread: player Position(): 1598
+12:30:27 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 23.7, 'start': 0, 'end': 10} add: False partial: False remove: False
+12:30:27 INFO main_window: updateStatusChanged
+12:30:27 INFO preview_thread: player Position(): 1602
+12:30:27 INFO project_data: _set key: ['effects'] values: {'id': '1GK38CG65G', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 23.7, 'start': 0, 'end': 29.666666666666668, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 891.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:30:27 INFO main_window: updateStatusChanged
+12:30:27 INFO preview_thread: player Position(): 1602
+12:30:28 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: True
+12:30:28 INFO preview_thread: player Position(): 1602
+12:30:28 INFO preview_thread: player Position(): 1602
+12:30:29 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'id': '9QV2JIQ8SF', 'layer': 5000000, 'position': 0, 'start': 17, 'end': 53.36666666666667} add: False partial: False remove: False
+12:30:29 INFO main_window: updateStatusChanged
+12:30:29 INFO preview_thread: player Position(): 1602
+12:30:31 INFO preview_thread: player Position(): 1602
+12:30:31 INFO main_window: addSelection: item_id: 1GK38CG65G, item_type: transition, clear_existing: True
+12:30:32 INFO main_window: addSelection: item_id: 1GK38CG65G, item_type: transition, clear_existing: False
+12:30:32 INFO webview: ShowTransitionMenu: 1GK38CG65G
+12:30:36 INFO project_data: _set key: ['effects', {'id': '1GK38CG65G'}] values: {'id': '1GK38CG65G', 'layer': 5000000, 'position': 42.43333333333333, 'start': 0, 'end': 29.666666666666668, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 891, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:30:36 INFO main_window: updateStatusChanged
+12:30:36 INFO preview_thread: player Position(): 1602
+12:30:47 INFO main_window: addSelection: item_id: 1GK38CG65G, item_type: transition, clear_existing: False
+12:30:47 INFO webview: ShowTransitionMenu: 1GK38CG65G
+12:30:50 INFO project_data: _set key: ['effects', {'id': '1GK38CG65G'}] values: None add: False partial: False remove: True
+12:30:50 INFO main_window: updateStatusChanged
+12:30:50 INFO preview_thread: player Position(): 1437
+12:30:52 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:30:52 INFO preview_thread: player Position(): 1477
+12:30:52 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 0, 'start': 0, 'end': 10} add: False partial: False remove: False
+12:30:52 INFO main_window: updateStatusChanged
+12:30:52 INFO preview_thread: player Position(): 1493
+12:30:52 INFO project_data: _set key: ['effects'] values: {'id': 'ZHTP4N3V1H', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 0, 'start': 0, 'end': 10, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 301.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:30:52 INFO main_window: updateStatusChanged
+12:30:52 INFO preview_thread: player Position(): 1493
+12:30:53 INFO preview_thread: player Position(): 1510
+12:30:53 INFO main_window: addSelection: item_id: ZHTP4N3V1H, item_type: transition, clear_existing: True
+12:30:55 INFO project_data: _set key: ['effects', {'id': 'ZHTP4N3V1H'}] values: {'id': 'ZHTP4N3V1H', 'layer': 5000000, 'position': 0, 'start': 0, 'end': 36.25, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1089, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:30:55 INFO main_window: updateStatusChanged
+12:30:55 INFO preview_thread: player Position(): 1551
+12:31:05 INFO main_window: addSelection: item_id: ZHTP4N3V1H, item_type: transition, clear_existing: True
+12:31:12 INFO main_window: addSelection: item_id: ZHTP4N3V1H, item_type: transition, clear_existing: False
+12:31:12 INFO project_data: _set key: ['effects', {'id': 'ZHTP4N3V1H'}] values: {'id': 'ZHTP4N3V1H', 'layer': 5000000, 'position': 15.9, 'start': 0, 'end': 36.25, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1089, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:31:12 INFO main_window: updateStatusChanged
+12:31:12 INFO preview_thread: player Position(): 130
+12:31:21 INFO main_window: addSelection: item_id: ZHTP4N3V1H, item_type: transition, clear_existing: False
+12:31:21 INFO webview: ShowTransitionMenu: ZHTP4N3V1H
+12:31:22 INFO project_data: _set key: ['effects', {'id': 'ZHTP4N3V1H'}] values: None add: False partial: False remove: True
+12:31:22 INFO main_window: updateStatusChanged
+12:31:22 INFO preview_thread: player Position(): 419
+12:31:24 INFO main_window: auto_save_project
+12:31:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:31:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:31:35 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:31:35 INFO preview_thread: player Position(): 225
+12:31:35 INFO preview_thread: LoadFile C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg
+12:31:37 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 0, 'start': 0, 'end': 36.25} add: False partial: False remove: False
+12:31:37 INFO main_window: updateStatusChanged
+12:31:37 INFO preview_thread: LoadFile 
+12:31:37 INFO preview_thread: player Position(): 225
+12:31:37 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:31:41 WARNING webkit: angular.min.js@L94: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:6:430
+n@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:139:382
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:275
+hideAudioData@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:359:22
+global code
+ShowClipMenu@[native code]
+showClipMenu@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:686:28
+fn
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:38:11
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:307
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:36:19
+dispatch@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:5095:14
+handle@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:4766:33
+12:31:41 WARNING webkit: angular.min.js@L94: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:6:430
+n@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:139:382
+$digest@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:144:31
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:370
+hideAudioData@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:359:22
+global code
+ShowClipMenu@[native code]
+showClipMenu@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:686:28
+fn
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:38:11
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:307
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:36:19
+dispatch@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:5095:14
+handle@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:4766:33
+12:31:41 WARNING webkit: angular.min.js@L147: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: Created new point at X=6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.0277777777777777}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: Created new point at X=6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.0}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO preview_thread: player Position(): 6
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.2500000132454767}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.0}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO preview_thread: player Position(): 6
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 2.736111111111111}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.0}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO preview_thread: player Position(): 6
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 2.7500000529819064}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.0}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:46 INFO main_window: updateStatusChanged
+12:31:46 INFO preview_thread: player Position(): 6
+12:31:46 INFO video_widget: looping points: co.X = 1.0
+12:31:46 INFO video_widget: looping points: co.X = 6
+12:31:47 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 2.7777777777777777}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:47 INFO main_window: updateStatusChanged
+12:31:47 INFO video_widget: looping points: co.X = 1.0
+12:31:47 INFO video_widget: looping points: co.X = 6
+12:31:47 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}, {'co': {'X': 6, 'Y': 1.0}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:47 INFO main_window: updateStatusChanged
+12:31:47 INFO preview_thread: player Position(): 6
+12:31:47 INFO main_window: updateStatusChanged
+12:31:57 INFO main_window: actionUndo_trigger
+12:31:57 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 0, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 1646, 'num': 1105}, 'duration': 3600.0, 'file_size': '7275320', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 1646, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 1105}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:31:57 INFO main_window: updateStatusChanged
+12:31:57 INFO preview_thread: player Position(): 46
+12:31:59 INFO video_widget: looping points: co.X = 1.0
+12:31:59 INFO video_widget: Created new point at X=46
+12:31:59 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -1.25}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:59 INFO main_window: updateStatusChanged
+12:31:59 INFO preview_thread: player Position(): 46
+12:31:59 INFO video_widget: looping points: co.X = 1.0
+12:31:59 INFO video_widget: looping points: co.X = 46
+12:31:59 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -2.0813953488372094}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:31:59 INFO main_window: updateStatusChanged
+12:31:59 INFO preview_thread: player Position(): 46
+12:31:59 INFO main_window: updateStatusChanged
+12:32:00 INFO video_widget: looping points: co.X = 1.0
+12:32:00 INFO video_widget: looping points: co.X = 46
+12:32:00 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -1.4563953876495361}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:00 INFO main_window: updateStatusChanged
+12:32:00 INFO preview_thread: player Position(): 46
+12:32:00 INFO video_widget: looping points: co.X = 1.0
+12:32:00 INFO video_widget: looping points: co.X = 46
+12:32:00 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -0.8313953876495361}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:00 INFO main_window: updateStatusChanged
+12:32:00 INFO preview_thread: player Position(): 46
+12:32:00 INFO video_widget: looping points: co.X = 1.0
+12:32:00 INFO video_widget: looping points: co.X = 46
+12:32:00 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -0.20639538764953613}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:00 INFO main_window: updateStatusChanged
+12:32:00 INFO preview_thread: player Position(): 46
+12:32:00 INFO video_widget: looping points: co.X = 1.0
+12:32:00 INFO video_widget: looping points: co.X = 46
+12:32:01 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 6.668604612350464}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:01 INFO main_window: updateStatusChanged
+12:32:01 INFO preview_thread: player Position(): 46
+12:32:01 INFO video_widget: looping points: co.X = 1.0
+12:32:01 INFO video_widget: looping points: co.X = 46
+12:32:01 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 6.043604850769043}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:01 INFO main_window: updateStatusChanged
+12:32:01 INFO preview_thread: player Position(): 46
+12:32:01 INFO video_widget: looping points: co.X = 1.0
+12:32:01 INFO video_widget: looping points: co.X = 46
+12:32:01 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 1.668604850769043}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:01 INFO main_window: updateStatusChanged
+12:32:01 INFO preview_thread: player Position(): 46
+12:32:01 INFO video_widget: looping points: co.X = 1.0
+12:32:01 INFO video_widget: looping points: co.X = 46
+12:32:01 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -5.418604451556538}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:01 INFO main_window: updateStatusChanged
+12:32:01 INFO preview_thread: player Position(): 46
+12:32:01 INFO video_widget: looping points: co.X = 1.0
+12:32:01 INFO video_widget: looping points: co.X = 46
+12:32:01 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -6.043604373931885}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:01 INFO main_window: updateStatusChanged
+12:32:01 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:02 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -6.462209025094675}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:02 INFO main_window: updateStatusChanged
+12:32:02 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:02 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -5.837209224700928}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:02 INFO main_window: updateStatusChanged
+12:32:02 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:02 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -1.4622092247009277}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:02 INFO main_window: updateStatusChanged
+12:32:02 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:02 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 2.9127907752990723}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:02 INFO main_window: updateStatusChanged
+12:32:02 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:02 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 3.5377907752990723}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:02 INFO main_window: updateStatusChanged
+12:32:02 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:02 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 3.1191861241362817}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:02 INFO main_window: updateStatusChanged
+12:32:02 INFO preview_thread: player Position(): 46
+12:32:02 INFO video_widget: looping points: co.X = 1.0
+12:32:02 INFO video_widget: looping points: co.X = 46
+12:32:03 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 2.075581511785818}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:03 INFO main_window: updateStatusChanged
+12:32:03 INFO preview_thread: player Position(): 46
+12:32:03 INFO video_widget: looping points: co.X = 1.0
+12:32:03 INFO video_widget: looping points: co.X = 46
+12:32:03 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -3.761627751727437}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:03 INFO main_window: updateStatusChanged
+12:32:03 INFO preview_thread: player Position(): 46
+12:32:03 INFO video_widget: looping points: co.X = 1.0
+12:32:03 INFO video_widget: looping points: co.X = 46
+12:32:03 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -3.5552323252655738}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:03 INFO main_window: updateStatusChanged
+12:32:03 INFO preview_thread: player Position(): 46
+12:32:03 INFO video_widget: looping points: co.X = 1.0
+12:32:03 INFO video_widget: looping points: co.X = 46
+12:32:03 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -2.930232286453247}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:03 INFO main_window: updateStatusChanged
+12:32:03 INFO preview_thread: player Position(): 46
+12:32:03 INFO video_widget: looping points: co.X = 1.0
+12:32:03 INFO video_widget: looping points: co.X = 46
+12:32:03 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -2.305232286453247}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:03 INFO main_window: updateStatusChanged
+12:32:03 INFO preview_thread: player Position(): 46
+12:32:04 INFO video_widget: looping points: co.X = 1.0
+12:32:04 INFO video_widget: looping points: co.X = 46
+12:32:04 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -1.680232286453247}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:04 INFO main_window: updateStatusChanged
+12:32:04 INFO preview_thread: player Position(): 46
+12:32:04 INFO video_widget: looping points: co.X = 1.0
+12:32:04 INFO video_widget: looping points: co.X = 46
+12:32:04 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.6133723647095437}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:04 INFO main_window: updateStatusChanged
+12:32:04 INFO preview_thread: player Position(): 46
+12:32:05 INFO main_window: updateStatusChanged
+12:32:12 INFO video_widget: looping points: co.X = 1.0
+12:32:12 INFO video_widget: looping points: co.X = 46
+12:32:12 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 1.2383723855018616}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:12 INFO main_window: updateStatusChanged
+12:32:12 INFO preview_thread: player Position(): 46
+12:32:12 INFO video_widget: looping points: co.X = 1.0
+12:32:12 INFO video_widget: looping points: co.X = 46
+12:32:12 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.819767674734426}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:12 INFO main_window: updateStatusChanged
+12:32:12 INFO preview_thread: player Position(): 46
+12:32:12 INFO video_widget: looping points: co.X = 1.0
+12:32:12 INFO video_widget: looping points: co.X = 46
+12:32:12 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -1.686046299546264}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:12 INFO main_window: updateStatusChanged
+12:32:12 INFO preview_thread: player Position(): 46
+12:32:12 INFO video_widget: looping points: co.X = 1.0
+12:32:12 INFO video_widget: looping points: co.X = 46
+12:32:12 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -4.816860196202301}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:12 INFO main_window: updateStatusChanged
+12:32:12 INFO preview_thread: player Position(): 46
+12:32:12 INFO video_widget: looping points: co.X = 1.0
+12:32:12 INFO video_widget: looping points: co.X = 46
+12:32:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -6.9040695013001905}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:13 INFO main_window: updateStatusChanged
+12:32:13 INFO preview_thread: player Position(): 46
+12:32:13 INFO video_widget: looping points: co.X = 1.0
+12:32:13 INFO video_widget: looping points: co.X = 46
+12:32:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -6.697674074838328}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:13 INFO main_window: updateStatusChanged
+12:32:13 INFO preview_thread: player Position(): 46
+12:32:13 INFO video_widget: looping points: co.X = 1.0
+12:32:13 INFO video_widget: looping points: co.X = 46
+12:32:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -4.19767427444458}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:13 INFO main_window: updateStatusChanged
+12:32:13 INFO preview_thread: player Position(): 46
+12:32:13 INFO video_widget: looping points: co.X = 1.0
+12:32:13 INFO video_widget: looping points: co.X = 46
+12:32:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -2.94767427444458}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:13 INFO main_window: updateStatusChanged
+12:32:13 INFO preview_thread: player Position(): 46
+12:32:13 INFO video_widget: looping points: co.X = 1.0
+12:32:13 INFO video_widget: looping points: co.X = 46
+12:32:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -2.32267427444458}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:13 INFO main_window: updateStatusChanged
+12:32:13 INFO preview_thread: player Position(): 46
+12:32:13 INFO video_widget: looping points: co.X = 1.0
+12:32:13 INFO video_widget: looping points: co.X = 46
+12:32:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -1.07267427444458}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:13 INFO main_window: updateStatusChanged
+12:32:13 INFO preview_thread: player Position(): 46
+12:32:14 INFO video_widget: looping points: co.X = 1.0
+12:32:14 INFO video_widget: looping points: co.X = 46
+12:32:14 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': -0.4476742744445801}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:14 INFO main_window: updateStatusChanged
+12:32:14 INFO preview_thread: player Position(): 46
+12:32:14 INFO video_widget: looping points: co.X = 1.0
+12:32:14 INFO video_widget: looping points: co.X = 46
+12:32:14 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}} add: False partial: False remove: False
+12:32:14 INFO main_window: updateStatusChanged
+12:32:14 INFO preview_thread: player Position(): 46
+12:32:15 INFO main_window: updateStatusChanged
+12:32:22 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:32:31 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 0, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:32:31 INFO main_window: updateStatusChanged
+12:32:31 INFO preview_thread: player Position(): 460
+12:32:45 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:32:49 WARNING webkit: angular.min.js@L94: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:6:430
+n@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:139:382
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:275
+hideAudioData@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:359:22
+global code
+ShowClipMenu@[native code]
+showClipMenu@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:686:28
+fn
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:38:11
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:307
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:36:19
+dispatch@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:5095:14
+handle@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:4766:33
+12:32:49 WARNING webkit: angular.min.js@L94: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:6:430
+n@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:139:382
+$digest@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:144:31
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:370
+hideAudioData@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:359:22
+global code
+ShowClipMenu@[native code]
+showClipMenu@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:686:28
+fn
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:38:11
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:307
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:36:19
+dispatch@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:5095:14
+handle@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:4766:33
+12:32:49 WARNING webkit: angular.min.js@L147: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+12:33:22 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:33:39 INFO preview_thread: player Position(): 1
+12:33:41 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:33:41 INFO preview_thread: player Position(): 1
+12:33:42 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 0.06666666666666667, 'start': 0, 'end': 36.25} add: False partial: False remove: False
+12:33:42 INFO main_window: updateStatusChanged
+12:33:42 INFO preview_thread: player Position(): 1
+12:33:42 INFO project_data: _set key: ['effects'] values: {'id': 'N877G4YJHW', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 0.06666666666666667, 'start': 0, 'end': 36.3, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1090.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:33:42 INFO main_window: updateStatusChanged
+12:33:42 INFO preview_thread: player Position(): 1
+12:33:54 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:33:54 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:33:56 INFO webview: ShowTrackMenu: L5
+12:34:00 INFO project_data: _set key: ['layers', {'id': 'L5'}] values: {'id': 'L5', 'label': '', 'number': 5000000, 'y': 0, 'lock': True} add: False partial: False remove: False
+12:34:00 INFO main_window: updateStatusChanged
+12:34:05 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:05 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:11 INFO preview_thread: player Position(): 1
+12:34:11 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: True
+12:34:16 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:16 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:21 INFO project_data: _set key: ['scale'] values: 15.000000000000002 add: False partial: False remove: False
+12:34:21 INFO main_window: updateStatusChanged
+12:34:21 INFO timeline: Adjusting max size of preview image: PyQt5.QtCore.QSize(272, 152)
+12:34:21 INFO preview_thread: player Position(): 1
+12:34:24 INFO main_window: auto_save_project
+12:34:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:34:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:34:26 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:26 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:29 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:29 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:30 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:30 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:32 INFO webview: ShowTrackMenu: L5
+12:34:34 INFO main_window: actionUnlockTrack_trigger
+12:34:34 INFO project_data: _set key: ['layers', {'id': 'L5'}] values: {'id': 'L5', 'label': '', 'number': 5000000, 'y': 0, 'lock': False} add: False partial: False remove: False
+12:34:34 INFO main_window: updateStatusChanged
+12:34:35 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:35 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:39 INFO project_data: _set key: ['effects', {'id': 'N877G4YJHW'}] values: {'id': 'N877G4YJHW', 'layer': 5000000, 'position': 47.6, 'start': 0, 'end': 36.3, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1090, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:34:39 INFO main_window: updateStatusChanged
+12:34:39 INFO preview_thread: player Position(): 1
+12:34:40 INFO main_window: addSelection: item_id: N877G4YJHW, item_type: transition, clear_existing: False
+12:34:40 INFO webview: ShowTransitionMenu: N877G4YJHW
+12:34:43 INFO project_data: _set key: ['effects', {'id': 'N877G4YJHW'}] values: None add: False partial: False remove: True
+12:34:43 INFO main_window: updateStatusChanged
+12:34:43 INFO preview_thread: player Position(): 1
+12:35:02 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: True
+12:35:02 INFO preview_thread: player Position(): 445
+12:35:02 INFO project_data: _set key: ['scale'] values: 15.000000000000004 add: False partial: False remove: False
+12:35:02 INFO main_window: updateStatusChanged
+12:35:02 INFO timeline: Adjusting max size of preview image: PyQt5.QtCore.QSize(266, 148)
+12:35:02 INFO preview_thread: player Position(): 447
+12:35:06 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 0.06666666666666667, 'start': 0, 'end': 36.25} add: False partial: False remove: False
+12:35:06 INFO main_window: updateStatusChanged
+12:35:06 INFO preview_thread: player Position(): 447
+12:35:06 INFO project_data: _set key: ['effects'] values: {'id': '495MS0OHN1', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 0.06666666666666667, 'start': 0, 'end': 36.3, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1090.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:35:06 INFO main_window: updateStatusChanged
+12:35:06 INFO preview_thread: player Position(): 447
+12:35:19 INFO preview_thread: player Position(): 39
+12:35:21 INFO main_window: addSelection: item_id: 495MS0OHN1, item_type: transition, clear_existing: False
+12:35:21 INFO project_data: _set key: ['effects', {'id': '495MS0OHN1'}] values: {'id': '495MS0OHN1', 'layer': 5000000, 'position': 41.166666666666664, 'start': 0, 'end': 36.3, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1090, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:35:21 INFO main_window: updateStatusChanged
+12:35:21 INFO preview_thread: player Position(): 39
+12:35:22 INFO main_window: addSelection: item_id: 495MS0OHN1, item_type: transition, clear_existing: False
+12:35:22 INFO webview: ShowTransitionMenu: 495MS0OHN1
+12:35:23 INFO project_data: _set key: ['effects', {'id': '495MS0OHN1'}] values: None add: False partial: False remove: True
+12:35:23 INFO main_window: updateStatusChanged
+12:35:23 INFO preview_thread: player Position(): 39
+12:35:25 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:35:25 INFO preview_thread: player Position(): 39
+12:35:27 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 0.06666666666666667, 'start': 0, 'end': 36.25} add: False partial: False remove: False
+12:35:27 INFO main_window: updateStatusChanged
+12:35:27 INFO preview_thread: player Position(): 39
+12:35:27 INFO project_data: _set key: ['effects'] values: {'id': 'ZGLYUJ2CQ3', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 0.06666666666666667, 'start': 0, 'end': 36.3, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1090.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:35:27 INFO main_window: updateStatusChanged
+12:35:27 INFO preview_thread: player Position(): 39
+12:35:29 INFO preview_thread: player Position(): 39
+12:35:29 INFO main_window: addSelection: item_id: ZGLYUJ2CQ3, item_type: transition, clear_existing: True
+12:35:30 INFO project_data: _set key: ['effects', {'id': 'ZGLYUJ2CQ3'}] values: {'id': 'ZGLYUJ2CQ3', 'layer': 5000000, 'position': 41, 'start': 0, 'end': 36.3, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1090, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:35:30 INFO main_window: updateStatusChanged
+12:35:30 INFO preview_thread: player Position(): 39
+12:35:30 INFO main_window: addSelection: item_id: ZGLYUJ2CQ3, item_type: transition, clear_existing: False
+12:35:30 INFO webview: ShowTransitionMenu: ZGLYUJ2CQ3
+12:35:31 INFO project_data: _set key: ['effects', {'id': 'ZGLYUJ2CQ3'}] values: None add: False partial: False remove: True
+12:35:31 INFO main_window: updateStatusChanged
+12:35:31 INFO preview_thread: player Position(): 39
+12:35:44 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: True
+12:35:44 INFO preview_thread: player Position(): 1
+12:35:47 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: True
+12:35:47 INFO preview_thread: player Position(): 1
+12:35:47 INFO preview_thread: player Position(): 1
+12:36:00 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:36:06 WARNING webkit: angular.min.js@L94: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:6:430
+n@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:139:382
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:275
+hideAudioData@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:359:22
+global code
+ShowClipMenu@[native code]
+showClipMenu@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:686:28
+fn
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:38:11
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:307
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:36:19
+dispatch@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:5095:14
+handle@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:4766:33
+12:36:06 WARNING webkit: angular.min.js@L94: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:6:430
+n@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:139:382
+$digest@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:144:31
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:370
+hideAudioData@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:359:22
+global code
+ShowClipMenu@[native code]
+showClipMenu@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/controllers.js:686:28
+fn
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:38:11
+$apply@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/angular.min.js:147:307
+file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/js/directives/misc.js:36:19
+dispatch@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:5095:14
+handle@file:///C:/Program%20Files/OpenShot%20Video%20Editor/timeline/media/js/jquery.js:4766:33
+12:36:06 WARNING webkit: angular.min.js@L147: Error: [$rootScope:inprog] http://errors.angularjs.org/1.6.0/$rootScope/inprog?p0=%24apply
+12:36:18 INFO ui_util: Initializing UI for Dialog
+12:36:18 INFO export: (4, 'Mono (1 Channel)')
+12:36:18 INFO export: (3, 'Stereo (2 Channel)')
+12:36:18 INFO export: (7, 'Surround (3 Channel)')
+12:36:18 INFO export: (1551, 'Surround (5.1 Channel)')
+12:36:18 INFO export: (1599, 'Surround (7.1 Channel)')
+12:36:18 INFO export: C:\Program Files\OpenShot Video Editor\profiles\square_pal_wide
+12:36:18 INFO export: AVI (h.264)
+12:36:18 INFO export: updateChannels
+12:36:18 INFO export: C:\Program Files\OpenShot Video Editor\profiles\square_pal_wide
+12:36:18 INFO export: C:\Program Files\OpenShot Video Editor\profiles\atsc_720p_30
+12:36:18 INFO export: C:\Program Files\OpenShot Video Editor\profiles\atsc_720p_30
+12:36:18 INFO export: Low
+12:36:18 INFO export: None
+12:36:18 INFO export: MP4 (h.264)
+12:36:18 INFO export: None
+12:36:19 INFO export: C:\Program Files\OpenShot Video Editor\profiles\square_pal_wide
+12:36:19 INFO export: C:\Program Files\OpenShot Video Editor\profiles\square_pal_wide
+12:36:19 INFO export: C:\Program Files\OpenShot Video Editor\profiles\atsc_720p_30
+12:36:19 INFO export: C:\Program Files\OpenShot Video Editor\profiles\atsc_720p_30
+12:36:19 INFO export: Low
+12:36:19 INFO export: High
+12:36:21 INFO export: btnBrowse_clicked
+12:36:50 INFO export: btnBrowse_clicked
+12:37:02 INFO export: Export path: C:/Users/G A M I N G _ R I G/Desktop/Ziah\Untitled Project.mp4
+12:37:02 INFO project_data: _set key: ['export_path'] values: C:/Users/G A M I N G _ R I G/Desktop/Ziah add: False partial: False remove: False
+12:37:02 INFO main_window: updateStatusChanged
+12:37:24 INFO main_window: auto_save_project
+12:37:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:37:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:37:30 INFO main_window: Export Video add cancelled
+12:40:24 INFO main_window: auto_save_project
+12:40:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:40:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:43:24 INFO main_window: auto_save_project
+12:43:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:43:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:46:23 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 12.5, 'start': 0, 'end': 36.25} add: False partial: False remove: False
+12:46:23 INFO main_window: updateStatusChanged
+12:46:23 INFO preview_thread: player Position(): 264
+12:46:23 INFO project_data: _set key: ['effects'] values: {'id': '6Z15YY0QSB', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 12.5, 'start': 0, 'end': 23.866666666666667, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 717.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:46:23 INFO main_window: updateStatusChanged
+12:46:23 INFO preview_thread: player Position(): 264
+12:46:23 INFO main_window: addSelection: item_id: 9QV2JIQ8SF, item_type: clip, clear_existing: True
+12:46:23 INFO preview_thread: player Position(): 264
+12:46:23 INFO preview_thread: player Position(): 264
+12:46:24 INFO main_window: auto_save_project
+12:46:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:46:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:46:26 INFO project_data: _set key: ['clips', {'id': '9QV2JIQ8SF'}] values: {'id': '9QV2JIQ8SF', 'layer': 5000000, 'position': 0.06666666666666667, 'start': 17, 'end': 53.36666666666667} add: False partial: False remove: False
+12:46:26 INFO main_window: updateStatusChanged
+12:46:26 INFO preview_thread: player Position(): 264
+12:46:27 INFO main_window: addSelection: item_id: 6Z15YY0QSB, item_type: transition, clear_existing: False
+12:46:27 INFO webview: ShowTransitionMenu: 6Z15YY0QSB
+12:46:29 INFO preview_thread: player Position(): 264
+12:46:30 INFO main_window: addSelection: item_id: 6Z15YY0QSB, item_type: transition, clear_existing: False
+12:46:31 INFO project_data: _set key: ['effects', {'id': '6Z15YY0QSB'}] values: {'id': '6Z15YY0QSB', 'layer': 5000000, 'position': 51.5, 'start': 0, 'end': 23.866666666666667, 'brightness': {'Points': [{'co': {'X': 1, 'Y': 1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 717, 'Y': -1}, 'handle_left': {'X': 0.5, 'Y': 1}, 'handle_right': {'X': 0.5, 'Y': 0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1, 'Y': 3}, 'interpolation': 2}]}} add: False partial: False remove: False
+12:46:31 INFO main_window: updateStatusChanged
+12:46:31 INFO preview_thread: player Position(): 264
+12:46:31 INFO main_window: addSelection: item_id: 6Z15YY0QSB, item_type: transition, clear_existing: False
+12:46:31 INFO webview: ShowTransitionMenu: 6Z15YY0QSB
+12:46:33 INFO project_data: _set key: ['effects', {'id': '6Z15YY0QSB'}] values: None add: False partial: False remove: True
+12:46:33 INFO main_window: updateStatusChanged
+12:46:33 INFO preview_thread: player Position(): 264
+12:46:36 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:46:36 INFO preview_thread: player Position(): 264
+12:46:46 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 12.5, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:46:46 INFO main_window: updateStatusChanged
+12:46:46 INFO preview_thread: player Position(): 264
+12:46:49 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:46:54 INFO webview: Updating clip id: 351CKIZIX2
+12:46:54 INFO webview: width: 1.0, height: 1.0
+12:46:54 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 0, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 12.5, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:46:54 INFO main_window: updateStatusChanged
+12:46:54 INFO preview_thread: player Position(): 264
+12:46:58 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:47:13 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 12.5, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:47:13 INFO main_window: updateStatusChanged
+12:47:13 INFO preview_thread: player Position(): 264
+12:47:20 INFO main_window: actionUndo_trigger
+12:47:20 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 0, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 12.5, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 1646, 'num': 1105}, 'duration': 3600.0, 'file_size': '7275320', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 1646, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 1105}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:47:20 INFO main_window: updateStatusChanged
+12:47:20 INFO preview_thread: player Position(): 264
+12:47:20 INFO main_window: actionUndo_trigger
+12:47:20 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 12.5, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 1646, 'num': 1105}, 'duration': 3600.0, 'file_size': '7275320', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 1646, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 1105}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:47:20 INFO main_window: updateStatusChanged
+12:47:20 INFO preview_thread: player Position(): 264
+12:47:21 INFO main_window: actionUndo_trigger
+12:47:21 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 3600.0, 'effects': [], 'end': 36.25, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '351CKIZIX2', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'mixing': 0, 'origin_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'origin_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.5}, 'interpolation': 2}]}, 'parentObjectId': '', 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 12.5, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 1646, 'num': 1105}, 'duration': 3600.0, 'file_size': '7275320', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 1646, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:/Users/G A M I N G _ R I G/Desktop/ID/Ziah/PhotoRoom_20210914_163243.jpeg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 1105}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}, {'co': {'X': 46, 'Y': 0.17732572555541992}, 'interpolation': 0}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'IU6T21V6HH', 'title': 'PhotoRoom_20210914_163243.jpeg'} add: False partial: False remove: False
+12:47:21 INFO main_window: updateStatusChanged
+12:47:21 INFO preview_thread: player Position(): 264
+12:47:24 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:47:31 INFO project_data: _set key: ['clips', {'id': '351CKIZIX2'}] values: {'id': '351CKIZIX2', 'layer': 5000000, 'position': 0.06666666666666667, 'start': 0, 'end': 36.25} add: False partial: False remove: False
+12:47:31 INFO main_window: updateStatusChanged
+12:47:31 INFO preview_thread: player Position(): 264
+12:47:32 INFO project_data: _set key: ['effects'] values: {'id': 'SR2E6L9AP1', 'layer': 5000000, 'title': 'Transition', 'type': 'Mask', 'position': 0.06666666666666667, 'start': 0, 'end': 36.25, 'brightness': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}, {'co': {'X': 1089.0, 'Y': -1.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'contrast': {'Points': [{'co': {'X': 1.0, 'Y': 3.0}, 'interpolation': 2}]}, 'reader': {'acodec': '', 'audio_bit_rate': 0, 'audio_stream_index': -1, 'audio_timebase': {'den': 1, 'num': 1}, 'channel_layout': 4, 'channels': 0, 'display_ratio': {'den': 4, 'num': 5}, 'duration': 3600.0, 'file_size': '5832000', 'fps': {'den': 1, 'num': 30}, 'has_audio': False, 'has_single_image': True, 'has_video': True, 'height': 576, 'interlaced_frame': False, 'metadata': {}, 'path': 'C:\\Program Files\\OpenShot Video Editor\\transitions\\common\\fade.svg', 'pixel_format': -1, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 0, 'top_field_first': True, 'type': 'QtImageReader', 'vcodec': '', 'video_bit_rate': 0, 'video_length': '108000', 'video_stream_index': -1, 'video_timebase': {'den': 30, 'num': 1}, 'width': 720}, 'replace_image': False} add: True partial: False remove: False
+12:47:32 INFO main_window: updateStatusChanged
+12:47:32 INFO preview_thread: player Position(): 264
+12:47:37 INFO main_window: addSelection: item_id: SR2E6L9AP1, item_type: transition, clear_existing: False
+12:47:37 INFO webview: ShowTransitionMenu: SR2E6L9AP1
+12:47:40 INFO project_data: _set key: ['effects', {'id': 'SR2E6L9AP1'}] values: None add: False partial: False remove: True
+12:47:40 INFO main_window: updateStatusChanged
+12:47:40 INFO preview_thread: player Position(): 1
+12:47:47 INFO preview_thread: player Position(): 62
+12:48:20 INFO main_window: addSelection: item_id: 351CKIZIX2, item_type: clip, clear_existing: False
+12:48:20 INFO preview_thread: player Position(): 136
+12:49:24 INFO main_window: auto_save_project
+12:49:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:49:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:52:24 INFO main_window: auto_save_project
+12:52:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:52:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:55:24 INFO main_window: auto_save_project
+12:55:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:55:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:58:24 INFO main_window: auto_save_project
+12:58:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+12:58:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+13:01:24 INFO main_window: auto_save_project
+13:01:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+13:01:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+13:04:24 INFO main_window: auto_save_project
+13:04:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+13:04:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+13:07:24 INFO main_window: auto_save_project
+13:07:24 INFO main_window: Creating backup of project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
+13:07:24 INFO project_data: Saving project file: C:\Users\G A M I N G _ R I G\.openshot_qt\backup.osp
